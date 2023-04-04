@@ -1,0 +1,22 @@
+{
+  "name": "debate-zone-micro-service-template",
+  "version": "1.0.0",
+  "description": "Template for micro-services",
+  "main": "index.ts",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "tempalte",
+    "debate",
+    "zone",
+    "micro-service",
+    "debate-zone"
+  ],
+  "author": "Grig Theo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3"
+  }
+}
