@@ -3,13 +3,19 @@
 # Set the default target to 'start' when calling `make` with no arguments.
 .DEFAULT_GOAL := start
 
+
+template-micro-service-run-flow:\
+	clean\
+	install\
+	start
+
 # Install dependencies
 install:
 	npm ci
 
 # Start the application
 start:
-	npm start:dev
+	npm run start:dev
 
 # Run tests
 test:
