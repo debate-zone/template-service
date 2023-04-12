@@ -1,8 +1,9 @@
 import {Routing} from "express-zod-api"
-import {helloWorldEndpoint} from "./endpoint"
+import {helloWorldEndpoint, postNameEndpoint} from "./endpoint"
 
 export const routing: Routing = {
     v1: {
-        hello: helloWorldEndpoint
+        hello: helloWorldEndpoint,
+        add: postNameEndpoint,
     }
 }
